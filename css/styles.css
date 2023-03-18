@@ -154,11 +154,21 @@ h3{
     font-weight: 900;
     font-size: 2.5rem;
     line-height: 1.5;
+    color: black;
+
+}
+
+.cta-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
     position: relative;
     bottom: 2.5rem;
     color: white;
-
 }
+
+
 
 /* press */
 #press{
