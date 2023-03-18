@@ -1,0 +1,221 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* navigation bar */
+.navbar-brand{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    position: relative;
+    left: 7%;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'montserrat-thin 100';
+}
+
+/* top_heading, title and container */
+#title{
+    background-color: #ff4c68;
+}
+.top_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 7% 3% 7%;
+}
+
+/* download buttons */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Breaking points using Media Query */
+
+@media (max-width:1200px) and (min-width:991px){
+    .download-button3{
+        padding-left: 6rem;
+        padding-right: 6rem;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:591px) and (min-width:382px){
+    .download-button3{
+        padding-left: 6rem;
+        padding-right: 6rem;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:1050px) and (min-width:990px){
+    #features, #press, #testimonials, #pricing{
+        position: relative;
+        top: 0.5rem;
+    }
+}
+
+@media (min-width:1050px){
+    .title-image{
+        position: relative;
+        rotate: 25deg;
+        top: 5rem;
+    }
+    
+}
+
+@media (max-width:990px) and (min-width:750px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        padding-right: 22%;
+    }
+}
+
+@media (max-width:750px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        padding-right: 30%;
+    }
+}
+
+@media(max-width:1050px) and (min-width:990px){
+    .cute-dog{
+        margin: 10%;
+    }
+}
+
+
+/* title-image */
+.title-image{
+    width: 60%;
+    position: relative;
+    left: 5rem;
+}
+
+/* features*/
+#features{
+    text-align: center;
+    padding: 9% 15%;
+    position: relative;
+    bottom: 8rem;
+    background-color: white;
+    
+}
+.h3-features{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+p{
+    color: grey;
+}
+.big-icons{
+    color: #ef8172;
+    size: 500%;
+    margin-bottom: 5%;
+}
+.big-icons:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    position: relative;
+    bottom: 8rem;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    position: relative;
+    bottom: 2.5rem;
+    color: white;
+
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    position: relative;
+    bottom: 8rem;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+.doggy{
+    width: 20%;
+    position: relative;
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+    padding: 5% 10% 0%;
+    position: relative;
+    bottom: 8rem;
+    background-color: white;
+}
+.card-dog{
+    padding: 5% 2% 0;
+}
+.cute-dog{
+    position: relative;
+    z-index: 1;
+}
+
+/* cta */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    position: relative;
+    bottom: 5rem;
+    padding: 7% 15% 3%;
+    
+}
+
+/* footer */
+#footer{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+.footer-links{
+    color: black;
+    padding: 2px 10px;
+}
